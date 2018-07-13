@@ -3,9 +3,10 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NxModule } from '@nrwl/nx';
+import { DemoPageComponent } from './demo-page/demo-page.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, DemoPageComponent],
   imports: [BrowserModule, NxModule.forRoot()],
   providers: [],
   bootstrap: [AppComponent]
