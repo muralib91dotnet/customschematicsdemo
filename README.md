@@ -12,4 +12,4 @@ Read the [blog post](https://www.lambda-it.ch/blog/post/custom-schematics-with-n
 2. Run `npm install`
 3. To create a new custom component, run `ng g demo-collection:custom-component TestPage --app=demo-app`
 4. The component should be generated, you can now use it in a template `<schematicsdemo-test-page></schematicsdemo-test-page>`
-5. Run `npm start` to start the application.
+5. Run `npm start` to start the application on [http://localhost:4200](http://localhost:4200)
