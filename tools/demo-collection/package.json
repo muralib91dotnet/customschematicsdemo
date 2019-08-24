@@ -4,6 +4,7 @@
   "description": "A schematics",
   "scripts": {
     "build": "tsc -p tsconfig.json",
+    "build-watch": "tsc -p tsconfig.json --watch",
     "test": "npm run build && jasmine **/*_spec.js"
   },
   "keywords": [
