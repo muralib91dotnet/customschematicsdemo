@@ -1,8 +1,8 @@
 # Outputs
-# src/**/*.js
-# src/**/*.js.map
-# src/**/*.d.ts
-
+src/**/*.js
+src/**/*.js.map
+src/**/*.d.ts
+src/**/package-lock.json
 # IDEs
 .idea/
 jsconfig.json
